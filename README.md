@@ -7,3 +7,6 @@ You need to execute these steps from the directory in which the terraform file i
   1. terraform init <-- this will download the necessary provider plugins
   2. terraform plan <-- this command will show what your script will perform when executed also display if their are any error in the terraform file
   3. terraform apply <-- this will create the ec2 instance for you and you can check from the aws console if the ec2 instance been created or not.
+
+I have also written a detailed article on how to create your first ec2 instance using terraform, so do check it out
+https://medium.com/@kedardeworks/launching-my-first-aws-ec2-instance-with-terraform-b23e88de3816
